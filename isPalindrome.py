@@ -10,7 +10,7 @@ def isPalindrome(s):
     while i <=len(s)/2 and j >= len(s)/2:
         if s[i]!=s[j]:
             return False
-            break
+            
         else:
             i=i+1
             j=j-1
